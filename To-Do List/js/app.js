@@ -116,5 +116,4 @@ list.addEventListener("click", function(event) {
         removeToDo(element)
     }
     localStorage.setItem("TODO", JSON.stringify(LIST))
-
 })
